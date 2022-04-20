@@ -1,0 +1,8 @@
+file_format: "1"
+id: remote_control
+name: Remote Control
+type: shield
+url: https://github.com/djbetterly/zmk-config
+requires: [pro_micro]
+features:
+  - keys
