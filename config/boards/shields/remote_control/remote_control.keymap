@@ -16,7 +16,7 @@
          default_layer {
              bindings = <
               &out OUT_BLE
-              &kp KP_N0
+              &bt BT_CLR
               &kp UP
               &kp DOWN
               &kp KP_N1
