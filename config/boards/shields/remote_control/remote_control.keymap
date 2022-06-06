@@ -10,6 +10,9 @@
  #include <dt-bindings/zmk/outputs.h>
  
  / {
+ 		chosen {
+        	zmk,underglow = &led_strip;
+    };
      keymap {
          compatible = "zmk,keymap";
  
