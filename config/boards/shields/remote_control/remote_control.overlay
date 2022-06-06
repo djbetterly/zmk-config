@@ -24,5 +24,10 @@
 			;
 
 	};
+	&pwm0 {
+    status = "okay";
+    ch0-pin = <06>;
+    /* ch0-inverted; */
+	};
 
 };
