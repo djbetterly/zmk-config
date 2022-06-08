@@ -21,7 +21,7 @@
               &kp UP
               &kp DOWN
               &kp KP_N1
-              &rgb_ug RGB_EFF
+              &rgb_ug RGB_TOG
              >;
          };
      };
