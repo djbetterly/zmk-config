@@ -20,7 +20,7 @@
               &bt BT_CLR
               &kp UP
               &kp DOWN
-              &kp KP_N1
+              &rgb_ug RGB_TOG
               &rgb_ug RGB_EFF
              >;
          };
