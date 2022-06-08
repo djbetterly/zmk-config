@@ -20,7 +20,7 @@
               &kp UP
               &kp DOWN
               &kp KP_N1
-              &kp KP_N2
+              &rgb_ug RGB_EFF
              >;
          };
      };
