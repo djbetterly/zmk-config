@@ -16,11 +16,11 @@
  
          default_layer {
              bindings = <
-              &kp KP_N1
-              &kp KP_N2
-              &kp KP_PLUS
               &kp UP
               &kp DOWN
+              &kp KP_PLUS
+              &kp KP_N1
+              &kp KP_N2
               &rgb_ug RGB_TOG
               &bt BT_CLR
              >;
