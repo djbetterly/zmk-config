@@ -16,12 +16,13 @@
  
          default_layer {
              bindings = <
-              &out OUT_BLE
-              &bt BT_CLR
-              &kp UP
+              &kp KP_N1
+              &kp NP_N2
+              &kp KP_PLUS
               &kp DOWN
+              &kp UP
               &rgb_ug RGB_TOG
-              &rgb_ug RGB_EFF
+              &bt BT_CLR
              >;
          };
      };
