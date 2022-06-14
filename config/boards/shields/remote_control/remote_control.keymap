@@ -17,7 +17,7 @@
          default_layer {
              bindings = <
               &kp KP_N1
-              &kp NP_N2
+              &kp KP_N2
               &kp KP_PLUS
               &kp UP
               &kp DOWN
