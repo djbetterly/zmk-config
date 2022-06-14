@@ -11,6 +11,16 @@
  #include <dt-bindings/zmk/rgb.h>
  
  / {
+     behaviors {
+        td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_0";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp PLUS>, <&kp N0>
+        };
+    };
+     
      keymap {
          compatible = "zmk,keymap";
  
@@ -18,7 +28,7 @@
              bindings = <
               &kp UP
               &kp DOWN
-              &kp KP_PLUS
+              &kp td0
               &kp KP_N1
               &kp KP_N2
               &rgb_ug RGB_TOG
