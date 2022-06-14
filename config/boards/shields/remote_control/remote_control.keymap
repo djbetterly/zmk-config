@@ -25,8 +25,16 @@
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp KP_N1>, <&kp KP_N0>;
-        };   
-    };
+        };
+        td2: tap_dance_2 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_2";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp KP_N2>, <&kp KP_N0>;
+		};
+	 };   
+ };
      
      keymap {
          compatible = "zmk,keymap";
@@ -37,7 +45,7 @@
               &kp DOWN
               &td0
               &td1
-              &kp KP_N2
+              &td2
               &rgb_ug RGB_TOG
               &bt BT_CLR
              >;
