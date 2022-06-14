@@ -28,7 +28,7 @@
              bindings = <
               &kp UP
               &kp DOWN
-              &kp td0
+              &td0
               &kp KP_N1
               &kp KP_N2
               &rgb_ug RGB_TOG
