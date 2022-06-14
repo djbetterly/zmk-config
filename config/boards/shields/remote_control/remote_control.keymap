@@ -19,8 +19,8 @@
               &kp KP_N1
               &kp NP_N2
               &kp KP_PLUS
-              &kp DOWN
               &kp UP
+              &kp DOWN
               &rgb_ug RGB_TOG
               &bt BT_CLR
              >;
