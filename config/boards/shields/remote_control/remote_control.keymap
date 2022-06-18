@@ -46,7 +46,7 @@
               &td0
               &td1
               &td2
-              &rgb_ug RGB_TOG
+              &rgb_ug RGB_EFF
               &bt BT_CLR
              >;
          };
