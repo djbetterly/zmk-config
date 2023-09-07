@@ -17,7 +17,7 @@
             bindings = <
                 &kp UP
                 &kp DOWN
-                &out OUT_BLE
+                &bt BT_CLR
                 &kp D
                 &kp E
                 &kp F
