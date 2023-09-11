@@ -27,7 +27,6 @@ behaviors {
             bindings = <
                 &kp UP
                 &kp DOWN
-                &bt BT_CLR
             >;
         };
     };
