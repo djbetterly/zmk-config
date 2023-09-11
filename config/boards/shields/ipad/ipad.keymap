@@ -10,6 +10,16 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
+behaviors {
+        BT_CLR: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_0";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&bt BT_CLR>, <&sys_reset>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
