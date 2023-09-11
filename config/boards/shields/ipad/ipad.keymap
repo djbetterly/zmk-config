@@ -11,7 +11,7 @@
 
 / {
 behaviors {
-        BT_CLR: tap_dance_0 {
+        td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_0";
             #binding-cells = <0>;
@@ -27,6 +27,7 @@ behaviors {
             bindings = <
                 &kp UP
                 &kp DOWN
+                &td0
             >;
         };
     };
