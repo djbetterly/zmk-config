@@ -18,12 +18,6 @@
                 &kp UP
                 &kp DOWN
                 &bt BT_CLR
-                &kp D
-                &kp E
-                &kp F
-                &kp G
-                &kp H
-                &kp I
             >;
         };
     };
