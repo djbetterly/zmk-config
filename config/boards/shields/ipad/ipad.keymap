@@ -17,7 +17,7 @@ behaviors {
             label = "TAP_DANCE_0";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp UP>, <&sys_reset>, <&bt BT_CLR>;
+            bindings = <&kp DOWN>, <&sys_reset>, <&bt BT_CLR>;
         };
     };
 
