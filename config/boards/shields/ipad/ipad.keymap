@@ -10,20 +10,23 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
+behaviors {
+        td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_0";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp UP>, <&sys_reset>, <&bt BT_CLR>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
+                &td0
                 &kp UP
-                &kp DOWN
-                &bt BT_CLR
-                &kp D
-                &kp E
-                &kp F
-                &kp G
-                &kp H
-                &kp I
             >;
         };
     };
