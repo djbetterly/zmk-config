@@ -21,7 +21,7 @@ behaviors {
         
         td1: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_0";
+            label = "TAP_DANCE_1";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp UP>, <&bootloader>;
